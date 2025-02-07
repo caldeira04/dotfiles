@@ -29,7 +29,7 @@ sudo mkinitcpio -P
 
 #copy hyprland and kitty default configs
 cp hyprland.conf ~/.config/hypr/
-cp kitty.conf ~/.config/kitty
+cp kitty.conf ~/.config/kitty/
 
 #configurate zshell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
